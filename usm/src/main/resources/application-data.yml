@@ -1,0 +1,13 @@
+### JDBC 连接信息
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url:
+      username:
+      password:
+        ###使用Druid作为数据库连接池
+      type:
+        ###配置 Druid 相关信息
+      druid:
+        min-idle: 3
+        max-active:

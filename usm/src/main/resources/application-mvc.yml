@@ -1,0 +1,3 @@
+### 配置 Thymeleaf 转发视图信息
+spring:
+  thymeleaf:
